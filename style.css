@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  justify-self: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.top {
+  border: 4px solid;
+  width: 400px;
+  background-color: white;
+  margin-top: 10px;
+  box-shadow: 6px 6px 0 black;
+  border-radius: 5px;
+  padding: 20px;
+}
+.top:hover {
+  box-shadow: 1px 1px 5px 5px;
+  color: hsl(47, 88%, 63%);
+}
+img {
+  border: solid 1px;
+  border-radius: 10px;
+}
+.action {
+  padding: 15px;
+}
+.Learn {
+  border: solid hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 10px;
+  width: 120px;
+  padding: 5px;
+  text-align: left;
+  font-weight: 500;
+}
+h1 {
+  text-align: left;
+  padding: 5px;
+}
+h2 {
+  margin-top: 5px;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  text-align: left;
+  color: hsl(0, 0%, 42%);
+  padding: 5px;
+}
+p {
+  padding: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  text-align: left;
+}
+.avatar {
+  position: relative;
+  margin-top: 10px;
+  margin-right: 300px;
+  border-radius: 50%;
+  border: solid 1px white;
+  padding: 10px;
+}
+.greg {
+  margin-top: -50px;
+  text-align: center;
+  color: hsl(0, 0%, 7%);
+  margin-left: -70px;
+}
+
+.attribution {
+  margin-top: 20px;
+  padding: 10px;
+}
